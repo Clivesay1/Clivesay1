@@ -59,3 +59,10 @@ Before transitioning into data analytics, I spent 5+ years in operations managem
 
 - 💼 [LinkedIn](https://www.linkedin.com/in/christopher-livesay)
 - 📧 Open to opportunities — feel free to reach out!
+---
+
+## 📚 Today I Learned
+
+- **Tip:** Always ask 'so what?' after every finding — the insight is only valuable if it drives a decision.
+
+*Last updated: April 18, 2026*
