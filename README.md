@@ -63,6 +63,6 @@ Before transitioning into data analytics, I spent 5+ years in operations managem
 
 ## 📚 Today I Learned
 
-- **Tip:** Always ask 'so what?' after every finding — the insight is only valuable if it drives a decision.
+- **Tip:** Use `groupby().agg()` in pandas for multi-metric summaries in a single operation.
 
 *Last updated: April 18, 2026*
