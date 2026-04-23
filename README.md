@@ -154,3 +154,6 @@ I'm actively seeking **remote Data Analyst** roles where I can apply my technica
 <p align="center">
   <i>"The goal is to turn data into information, and information into insight." — Carly Fiorina</i>
 </p>
+
+<!-- daily-tip: April 23, 2026 -->
+<!-- **Today's Viz Tip:** Pie charts are rarely the right choice — a sorted bar chart conveys the same info more accurately. -->
