@@ -157,3 +157,6 @@ I'm actively seeking **remote Data Analyst** roles where I can apply my technica
 
 <!-- daily-tip: April 23, 2026 -->
 <!-- **Today's Viz Tip:** Pie charts are rarely the right choice — a sorted bar chart conveys the same info more accurately. -->
+
+<!-- daily-tip: 2026-04-25 -->
+<!-- **Today's Viz Tip:** Always label your axes with units. 'Revenue' is ambiguous — 'Revenue ($USD, millions)' is not. Small details like this separate professional data work from student projects. -->
