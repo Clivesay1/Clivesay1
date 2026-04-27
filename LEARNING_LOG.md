@@ -3,3 +3,6 @@
 Reviewing feature engineering techniques for the MTG value model. Interaction terms between EDHREC rank and set age improve R² by about 0.02 — small but meaningful.
 
 Also experimenting with log-transforming price targets to handle the right-skewed distribution of card prices. Most cards cluster under $5, with a long tail of expensive staples.
+
+## 2026-04-27 11:42
+Used scipy.stats for Mann-Whitney U tests — non-parametric test appropriate for comparing price distributions between card rarities.
