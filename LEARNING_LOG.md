@@ -6,3 +6,6 @@ Also experimenting with log-transforming price targets to handle the right-skewe
 
 ## 2026-04-27 11:42
 Used scipy.stats for Mann-Whitney U tests — non-parametric test appropriate for comparing price distributions between card rarities.
+
+## April 28, 2026
+Studied seaborn's FacetGrid for multi-panel visualizations. Faceting by category (e.g., rarity tier, genre) is more informative than overlapping distributions in a single plot.
