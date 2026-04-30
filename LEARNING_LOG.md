@@ -9,3 +9,6 @@ Used scipy.stats for Mann-Whitney U tests — non-parametric test appropriate fo
 
 ## April 28, 2026
 Studied seaborn's FacetGrid for multi-panel visualizations. Faceting by category (e.g., rarity tier, genre) is more informative than overlapping distributions in a single plot.
+
+## April 30, 2026
+Studied matplotlib's object-oriented interface (Figure and Axes objects) vs. pyplot state machine. OO interface is more flexible for complex multi-panel figures. Converting all project charts to use explicit Axes objects.
