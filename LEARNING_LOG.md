@@ -12,3 +12,7 @@ Studied seaborn's FacetGrid for multi-panel visualizations. Faceting by category
 
 ## April 30, 2026
 Studied matplotlib's object-oriented interface (Figure and Axes objects) vs. pyplot state machine. OO interface is more flexible for complex multi-panel figures. Converting all project charts to use explicit Axes objects.
+
+## May 02, 2026
+
+Working through the MTG value model today — specifically the reprint risk component. It's tricky to quantify because reprints are announced suddenly and can drop prices 40-60% overnight. Using a combination of time-since-last-print and current price-to-historical-average ratio as a proxy.
