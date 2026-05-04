@@ -16,3 +16,9 @@ Studied matplotlib's object-oriented interface (Figure and Axes objects) vs. pyp
 ## May 02, 2026
 
 Working through the MTG value model today — specifically the reprint risk component. It's tricky to quantify because reprints are announced suddenly and can drop prices 40-60% overnight. Using a combination of time-since-last-print and current price-to-historical-average ratio as a proxy.
+
+## May 04, 2026
+
+- Built correlation heatmaps with seaborn — mask upper triangle for cleaner look
+- Used annot=True with fmt='.2f' for readable correlation values
+- Diverging palette (coolwarm) works best for correlation matrices
