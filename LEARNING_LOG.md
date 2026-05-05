@@ -22,3 +22,15 @@ Working through the MTG value model today — specifically the reprint risk comp
 - Built correlation heatmaps with seaborn — mask upper triangle for cleaner look
 - Used annot=True with fmt='.2f' for readable correlation values
 - Diverging palette (coolwarm) works best for correlation matrices
+
+## May 5, 2026
+
+Comparing Random Forest vs. Gradient Boosting for the MTG price prediction model.
+Results on holdout set:
+- Random Forest: RMSE $4.21, R² 0.68, training time 12s
+- Gradient Boosting (XGBoost): RMSE $3.87, R² 0.72, training time 34s
+- Ridge Regression (baseline): RMSE $6.14, R² 0.51
+
+XGBoost wins on accuracy but Random Forest is more interpretable.
+Going with Random Forest for the portfolio project — explainability matters
+more than marginal accuracy improvement for a portfolio showcase.
