@@ -34,3 +34,7 @@ Results on holdout set:
 XGBoost wins on accuracy but Random Forest is more interpretable.
 Going with Random Forest for the portfolio project — explainability matters
 more than marginal accuracy improvement for a portfolio showcase.
+
+## May 2026 Update
+
+Reviewed pandas groupby + agg patterns for multi-metric summaries. Using named aggregations (pd.NamedAgg) makes the resulting DataFrame columns self-documenting.
