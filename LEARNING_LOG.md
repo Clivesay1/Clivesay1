@@ -38,3 +38,6 @@ more than marginal accuracy improvement for a portfolio showcase.
 ## May 2026 Update
 
 Reviewed pandas groupby + agg patterns for multi-metric summaries. Using named aggregations (pd.NamedAgg) makes the resulting DataFrame columns self-documenting.
+
+## May 19, 2026
+Exploring model interpretability tools: feature_importances_ from Random Forest gives a quick ranking. Permutation importance (sklearn.inspection) is more reliable — measures actual impact on model performance. SHAP values give per-prediction explanations — useful for portfolio projects to show hiring managers you understand not just accuracy but WHY the model works. Adding a SHAP summary plot to the MTG project notebook.
