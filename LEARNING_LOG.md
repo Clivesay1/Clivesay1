@@ -41,3 +41,7 @@ Reviewed pandas groupby + agg patterns for multi-metric summaries. Using named a
 
 ## May 19, 2026
 Exploring model interpretability tools: feature_importances_ from Random Forest gives a quick ranking. Permutation importance (sklearn.inspection) is more reliable — measures actual impact on model performance. SHAP values give per-prediction explanations — useful for portfolio projects to show hiring managers you understand not just accuracy but WHY the model works. Adding a SHAP summary plot to the MTG project notebook.
+
+## May 25, 2026
+
+Studied scipy.stats for non-parametric hypothesis testing. Mann-Whitney U test is appropriate for comparing price distributions between card rarity tiers — more robust than t-test given the skewed distributions.
