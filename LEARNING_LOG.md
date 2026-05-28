@@ -45,3 +45,6 @@ Exploring model interpretability tools: feature_importances_ from Random Forest 
 ## May 25, 2026
 
 Studied scipy.stats for non-parametric hypothesis testing. Mann-Whitney U test is appropriate for comparing price distributions between card rarity tiers — more robust than t-test given the skewed distributions.
+
+## May 28, 2026
+Refining git workflow for data analysis projects. Using `.gitignore` to exclude large raw data files (>50MB) and keeping only processed/summary data in the repo. Committing notebooks with outputs cleared (`jupyter nbconvert --clear-output`) to avoid large diffs. Using descriptive commit messages that reference the analysis section: 'add Part 3 risk-adjusted return analysis' is more informative than 'update notebook'. Tagging major milestones with `git tag v1.0-eda` for easy reference.
