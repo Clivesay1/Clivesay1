@@ -48,3 +48,6 @@ Studied scipy.stats for non-parametric hypothesis testing. Mann-Whitney U test i
 
 ## May 28, 2026
 Refining git workflow for data analysis projects. Using `.gitignore` to exclude large raw data files (>50MB) and keeping only processed/summary data in the repo. Committing notebooks with outputs cleared (`jupyter nbconvert --clear-output`) to avoid large diffs. Using descriptive commit messages that reference the analysis section: 'add Part 3 risk-adjusted return analysis' is more informative than 'update notebook'. Tagging major milestones with `git tag v1.0-eda` for easy reference.
+
+## May 31, 2026 — Data Cleaning Workflow
+Documenting data cleaning checklist for portfolio projects: (1) Check dtypes immediately after load — fix before any analysis. (2) Use `df.isna().sum()` to quantify missing data before deciding on imputation strategy. (3) For price data: log-transform before modeling (right-skewed distributions). (4) Outlier detection: IQR method for bounded data, z-score for normally distributed. (5) Always validate cleaned data against known values (e.g., check that S&P 500 CAGR ≈ 10% over 20yr). Document every cleaning decision in markdown cells.
