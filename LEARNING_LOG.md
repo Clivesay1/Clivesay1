@@ -51,3 +51,6 @@ Refining git workflow for data analysis projects. Using `.gitignore` to exclude 
 
 ## May 31, 2026 — Data Cleaning Workflow
 Documenting data cleaning checklist for portfolio projects: (1) Check dtypes immediately after load — fix before any analysis. (2) Use `df.isna().sum()` to quantify missing data before deciding on imputation strategy. (3) For price data: log-transform before modeling (right-skewed distributions). (4) Outlier detection: IQR method for bounded data, z-score for normally distributed. (5) Always validate cleaned data against known values (e.g., check that S&P 500 CAGR ≈ 10% over 20yr). Document every cleaning decision in markdown cells.
+
+<!-- 2026-06-01 15:43 -->
+> Log: reviewed confusion matrix interpretation.
