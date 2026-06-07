@@ -54,3 +54,11 @@ Documenting data cleaning checklist for portfolio projects: (1) Check dtypes imm
 
 <!-- 2026-06-01 15:43 -->
 > Log: reviewed confusion matrix interpretation.
+
+---
+
+## 2026-06-07
+
+**Topic:** Writing analysis summaries for non-technical audiences
+
+Practiced translating model outputs into plain language. Instead of 'the R² is 0.73', write 'the model explains 73% of the variation in card prices.' Lead with the business insight, then support with the metric. Stakeholders care about the implication, not the statistic.
