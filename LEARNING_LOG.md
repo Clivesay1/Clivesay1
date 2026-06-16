@@ -62,3 +62,15 @@ Documenting data cleaning checklist for portfolio projects: (1) Check dtypes imm
 **Topic:** Writing analysis summaries for non-technical audiences
 
 Practiced translating model outputs into plain language. Instead of 'the R² is 0.73', write 'the model explains 73% of the variation in card prices.' Lead with the business insight, then support with the metric. Stakeholders care about the implication, not the statistic.
+
+---
+
+## Learning Log — Statistics
+
+**Date:** June 16, 2026
+
+### Today's Focus
+- Reviewed Pearson vs Spearman correlation — Spearman better for non-normal distributions
+- Shapiro-Wilk test for normality: p > 0.05 suggests normal distribution
+- Log transformation to normalize right-skewed price data
+- Bootstrapping for confidence intervals when sample size is small
