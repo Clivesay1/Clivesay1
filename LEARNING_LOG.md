@@ -74,3 +74,12 @@ Practiced translating model outputs into plain language. Instead of 'the R² is 
 - Shapiro-Wilk test for normality: p > 0.05 suggests normal distribution
 - Log transformation to normalize right-skewed price data
 - Bootstrapping for confidence intervals when sample size is small
+
+## Learning Log — Data Cleaning
+**Date:** June 19, 2026
+
+### Today's Focus
+- Handling missing data: MCAR, MAR, MNAR — different imputation strategies
+- Outlier detection: IQR method vs Z-score vs isolation forest
+- String cleaning with regex: extracting structured data from messy text
+- Pandas: apply() vs vectorized operations — performance comparison
