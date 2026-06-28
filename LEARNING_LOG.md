@@ -83,3 +83,6 @@ Practiced translating model outputs into plain language. Instead of 'the R² is 
 - Outlier detection: IQR method vs Z-score vs isolation forest
 - String cleaning with regex: extracting structured data from messy text
 - Pandas: apply() vs vectorized operations — performance comparison
+
+## June 28, 2026
+Reviewed statistical hypothesis testing: t-tests, Mann-Whitney U, chi-square, and ANOVA. Mann-Whitney U is appropriate for non-normal distributions (price data is always right-skewed). Using it to test whether median card prices differ significantly between rarity tiers in the MTG dataset.
