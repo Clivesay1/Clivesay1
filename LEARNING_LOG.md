@@ -86,3 +86,7 @@ Practiced translating model outputs into plain language. Instead of 'the R² is 
 
 ## June 28, 2026
 Reviewed statistical hypothesis testing: t-tests, Mann-Whitney U, chi-square, and ANOVA. Mann-Whitney U is appropriate for non-normal distributions (price data is always right-skewed). Using it to test whether median card prices differ significantly between rarity tiers in the MTG dataset.
+
+### Update: July 01, 2026
+
+Reviewed scikit-learn Pipeline for combining preprocessing and modeling steps. Pipelines prevent data leakage by ensuring transformations are fit only on training data.
