@@ -90,3 +90,7 @@ Reviewed statistical hypothesis testing: t-tests, Mann-Whitney U, chi-square, an
 ### Update: July 01, 2026
 
 Reviewed scikit-learn Pipeline for combining preprocessing and modeling steps. Pipelines prevent data leakage by ensuring transformations are fit only on training data.
+
+## July 4, 2026 — Time Series Analysis
+
+Studied time series decomposition: trend, seasonality, and residual components. Applied STL decomposition to the collectibles price data — identified annual seasonality in sports card prices (peak in February around Super Bowl). Practiced ARIMA modeling for price forecasting. Key insight: most collectibles price series are non-stationary — need to difference the series before applying ARIMA. Used ADF test to confirm stationarity after first-order differencing.
