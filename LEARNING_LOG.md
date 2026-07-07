@@ -94,3 +94,10 @@ Reviewed scikit-learn Pipeline for combining preprocessing and modeling steps. P
 ## July 4, 2026 — Time Series Analysis
 
 Studied time series decomposition: trend, seasonality, and residual components. Applied STL decomposition to the collectibles price data — identified annual seasonality in sports card prices (peak in February around Super Bowl). Practiced ARIMA modeling for price forecasting. Key insight: most collectibles price series are non-stationary — need to difference the series before applying ARIMA. Used ADF test to confirm stationarity after first-order differencing.
+
+
+## July 07, 2026
+
+**Today's Focus:** Feature Engineering for Regression
+
+Practiced polynomial features, interaction terms, and log transformations for skewed distributions. Key finding: log-transforming right-skewed price data significantly improved linear regression R² from 0.61 to 0.79 in practice dataset.
